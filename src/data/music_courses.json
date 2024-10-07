@@ -1,0 +1,105 @@
+{
+    "courses": [
+      {
+        "id": 1,
+        "title": "Beginner Guitar Lessons",
+        "slug": "beginner-guitar-lessons",
+        "description": "Learn the basics of playing guitar with easy-to-follow lessons for beginners.",
+        "price": 29.99,
+        "instructor": "John Doe",
+        "isFeatured": true,
+        "image": "https://i.pinimg.com/564x/a5/ab/6a/a5ab6a64dbfdcdb318fcba6b25f60244.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Advanced Piano Techniques",
+        "slug": "advanced-piano-techniques",
+        "description": "Master advanced piano techniques and take your playing to the next level.",
+        "price": 49.99,
+        "instructor": "Sarah Lee",
+        "isFeatured": true,
+        "image": "https://i.pinimg.com/564x/1d/12/4f/1d124f18d6f7d647e340f9e4d57b7d8d.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Music Production Essentials",
+        "slug": "music-production-essentials",
+        "description": "Learn the fundamentals of music production, from recording to mixing.",
+        "price": 79.99,
+        "instructor": "Tom White",
+        "isFeatured": false,
+        "image": "https://imgs.search.brave.com/LX6girCihcVKRE1WoVAcHsMMngLag8g8lNONLHhVaPo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNjIy/MDY0NTQ0L3Bob3Rv/L211c2ljLW1peGVy/LmpwZz9zPTYxMng2/MTImdz0wJms9MjAm/Yz1JTWktOXRuMDFR/NktjTE9tT1ZMNUlr/R2U2Ul9WcEQ3d3Z6/dFZ4WHRyTXhvPQ"
+      },
+      {
+        "id": 4,
+        "title": "Jazz Improvisation",
+        "slug": "jazz-improvisation",
+        "description": "Unlock the secrets of jazz improvisation and develop your own unique sound.",
+        "price": 59.99,
+        "instructor": "Ella Green",
+        "isFeatured": false,
+        "image": "https://imgs.search.brave.com/qnilHAcK2YRbaB_VETZ94WZbYjw3n2oU8S7pc2UwFGA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9ldm9sdXRpb24t/amF6el8xMTY4NjEy/LTMzNzQxNS5qcGc_/c2l6ZT02MjYmZXh0/PWpwZw"
+      },
+      {
+        "id": 5,
+        "title": "Vocal Training for Singers",
+        "slug": "vocal-training-for-singers",
+        "description": "Improve your vocal range and control with expert training techniques.",
+        "price": 39.99,
+        "instructor": "Michael Brown",
+        "isFeatured": true,
+        "image": "https://i.pinimg.com/564x/bf/29/4a/bf294a2421f43172f48a3602a6e4c01a.jpg"
+      },
+      {
+        "id": 6,
+        "title": "Drumming for Beginners",
+        "slug": "drumming-for-beginners",
+        "description": "Get started with drumming and learn the basics of rhythm and percussion.",
+        "price": 19.99,
+        "instructor": "Linda Black",
+        "isFeatured": false,
+        "image": "https://imgs.search.brave.com/bzyMCDd6qHdfpFFHrlOp0COzRRV0PCnCqHGOrhI9pcQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTQw/MDUyODk2Ny9waG90/by9jcm9wcGVkLWlt/YWdlLW9mLWEtbXVz/aWNpYW4tcGxheWlu/Zy1kcnVtLXNldC1v/bi10aGUtc3RhZ2Uu/d2VicD9hPTEmYj0x/JnM9NjEyeDYxMiZ3/PTAmaz0yMCZjPV9Y/LWQwSi1ScTJnS0py/UWlTbWltc05iZC0y/MmlNRUNZNUdKcHZT/MEFwckE9"
+      },
+      {
+        "id": 7,
+        "title": "Songwriting Masterclass",
+        "slug": "songwriting-masterclass",
+        "description": "Discover the art of songwriting and create your own music with confidence.",
+        "price": 89.99,
+        "instructor": "James King",
+        "isFeatured": true,
+        "image": "https://i.pinimg.com/736x/e1/3d/7a/e13d7a3b5029f9b511589e907e41da15.jpg"
+      },
+      {
+        "id": 8,
+        "title": "Electronic Music Production",
+        "slug": "electronic-music-production",
+        "description": "Learn to create electronic music using industry-standard software and techniques.",
+        "price": 69.99,
+        "instructor": "David Clark",
+        "isFeatured": true,
+        "image": "https://i.pinimg.com/736x/fd/84/17/fd84173d72513d53cd31d4bbc1f36668.jpg"
+      },
+      {
+        "id": 9,
+        "title": "Music Theory Basics",
+        "slug": "music-theory-basics",
+        "description": "Understand the fundamentals of music theory and how they apply to all instruments.",
+        "price": 25.99,
+        "instructor": "Angela Wood",
+        "isFeatured": true,
+        "image": "https://i.pinimg.com/736x/47/5b/72/475b72acb3f65dd57e938e4eab8ac895.jpg"
+      },
+      {
+        "id": 10,
+        "title": "DJing Essentials",
+        "slug": "djing-essentials",
+        "description": "Learn the basics of DJing, from beatmatching to mixing tracks like a pro.",
+        "price": 34.99,
+        "instructor": "Chris Rogers",
+        "isFeatured": false,
+        "image": "https://imgs.search.brave.com/b93ZyxKobREVGxs-FVoZL8H8A2Pd03x6Fi8DKXCJqK0/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNTM4/NDc5Mzg5L3Bob3Rv/L2RqLW1peGVyLXdp/dGgtaGVhZHBob25l/cy5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9dWdrV1hNYmNJ/SjVJbEliOHVHWEdK/SV9nMlYxZWFyeGdF/UkRWWUY2TnVFZz0"
+      }
+    ]
+  }
+  
