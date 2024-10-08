@@ -1,14 +1,21 @@
-const plugin = require('tailwindcss/plugin');
+/* eslint-disable */
+import plugin from 'tailwindcss/plugin';
 const colors = require('tailwindcss/colors');
 const { default: flattenColorPalette } = require('tailwindcss/lib/util/flattenColorPalette');
 const svgToDataUri = require("mini-svg-data-uri");
 
+type PluginParams = {
+  addBase: (base: { [key: string]: { [key: string]: string } }) => void;
+  theme: (key: string) => any;
+};
+
 // Plugin for adding CSS variables for colors
-// eslint-disable-next-line
-const addVariablesForColors = plugin(function ({ addBase, theme }) {
+const addVariablesForColors = plugin(function ({ addBase, theme }: PluginParams) {
   const allColors = flattenColorPalette(theme('colors'));
-  const newVars = Object.fromEntries(
-    Object.entries(allColors).map(([key, value]) => [`--${key}`, value])
+  
+  // Ensure newVars is typed correctly
+  const newVars: { [key: string]: string } = Object.fromEntries(
+    Object.entries(allColors).map(([key, value]) => [`--${key}`, value as string])
   );
 
   addBase({
@@ -64,7 +71,7 @@ module.exports = {
   },
   plugins: [
     addVariablesForColors,
-    function ({ matchUtilities, theme }) {
+    plugin(function ({ matchUtilities, theme }) {
       matchUtilities(
         {
           "bg-grid": (value) => ({
@@ -85,6 +92,6 @@ module.exports = {
         },
         { values: flattenColorPalette(theme("backgroundColor")), type: "color" }
       );
-    },
+    }),
   ],
 };
